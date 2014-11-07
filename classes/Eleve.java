@@ -60,7 +60,13 @@ public class Eleve {
          */
 
 		//*************   CONSTRUCTEUR   *************
-
+		/**
+         * Constructeur de l'élève
+         *@param code "le code de l'élève"
+         *@param nom "le nom de l'élève"
+         *@param prenom "le prénom de l'élève"
+         *@param dateNaiss "la date de naissance de l'élève"
+         */
 		public Eleve(int code , String nom ,String prenom ,String dateNaiss){
 
 			this.code = code;
@@ -68,11 +74,10 @@ public class Eleve {
 			this.prenom = prenom;
 			this.dateNaiss = dateNaiss;
 		}
-		/**
-         * Constructeur de l'élève
-         *
-         */
 
+		/**
+         * Constructeur par défaut de l'élève
+         */
 		public Eleve(){
 
 			code = 1;
@@ -80,10 +85,7 @@ public class Eleve {
 			prenom = "Clément";
 			dateNaiss = "16-04-1994";
 		}
-		/**
-         * Constructeur par défaut de l'élève
-         *
-         */
+
 
 		//*************   Méthode toString  *************
 		public String toString ( ){
